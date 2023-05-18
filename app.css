@@ -17,5 +17,98 @@ body{
     margin: 0;
     font-size: 1em;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--tertiary-color-darker);
+}
+
+main{
+    max-width: 39.5rem ;
+    margin: .9375rem ;
+}
+
+img{
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+h2,h3,h4,h5{
+    margin: 0;
+    padding-right: .3125rem;
+    display: inline;
+    font-size: 1rem ;
+}
+.notification-card{
+    display: flex;
+    align-items: flex-start;
+    margin: 3.125rem 0;
+}
+
+.notification-texts{
+    padding-left: .9375rem ;
+    line-height: 1.5;
+}
+
+.notification-texts span{
+    display: block;
+}
+
+.notif-panel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notif-panel div{
+    display: flex;
+    align-items: center;
+}
+
+.number-of-new-notifications{
+    background-color: var(--secondary-color);
+    padding: .3125rem .625rem;
+    border-radius: .3125rem ;
+    color: var(--tertiary-color);
+    margin: 0 .3125rem;
+}
+
+.mark-all-as-read{
+    color: var(--fouthary-color-darker);
+}
+
+.author-name{
+    color: var(--fouthary-color-dark);
+}
+
+.notif-action{
+    color: var(--fouthary-color)
+}
+
+.notif-post{
+    color: var(--fouthary-color-darker);
+}
+
+.notif-club{
+    color: var(--secondary-color);
+}
+
+.notif-timestamp{
+    color: var(--fouthary-color);
+}
+
+.notif-message{
+    color: var(--fouthary-color-darker);
+    padding: .9375rem ;
+    border: 1px solid var(--fouthary-color-lighter);
+    border-radius: .3125rem ;
+}
+
+@media screen and (min-width: 48rem){
+    main{
+        background-color: var(--tertiary-color);
+        border-radius: 1.5625rem ;
+        padding: 1.5625rem ;
+    }
 }
