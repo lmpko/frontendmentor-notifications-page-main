@@ -1,0 +1,43 @@
+[
+    {
+      "name": "Mark Webber",
+      "action": "reacted to your recent post",
+      "post": "My first tournament today!",
+      "timestamp": "1m ago"
+    },
+    {
+      "name": "Angela Gray",
+      "action": "followed you",
+      "timestamp": "5m ago"
+    },
+    { 
+      "name": "Jacob Thompson",
+      "action": "has joined your group ",
+      "club": "Chess Club",
+      "timestamp": "1 day ago"
+    },
+    {
+      "name": "Rizky Hasanuddin",
+      "action": "sent you a private message",
+      "timestamp": "5 days ago",
+      "message" : "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game."
+    },
+    {
+      "name": "Kimberly Smith",
+      "action": " commented on your picture",
+      "timestamp": "1 week ago"
+    },
+    {
+      "name": "Nathan Peterson",
+      "action": "reacted to your recent post",
+      "post": "5 end-game strategies to increase your win rate",
+      "timestamp": "2 weeks ago"
+    },
+    {
+      "name": "Anna Kim",
+      "action": "left the group Chess Club",
+      "club": "Chess Club",
+      "timestamp": "2 weeks ago"
+    }
+  ]
+  
