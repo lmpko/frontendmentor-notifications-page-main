@@ -25,7 +25,7 @@ body{
 }
 
 main{
-    max-width: 39.5rem ;
+    max-width: 40.5rem ;
     margin: .9375rem ;
 }
 
@@ -123,6 +123,19 @@ a{
 
 a:hover{
     color: var(--secondary-color);
+}
+
+.is-new{
+    border-radius: .9375rem ;
+    background-color: var(--fouthary-color-light);
+}
+
+.new-indicator{
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    width: .625rem;
+    height: .625rem;
+    display: inline-flex;
 }
 
 @media screen and (min-width: 48rem){
