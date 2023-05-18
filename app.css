@@ -1,0 +1,21 @@
+:root{
+    --primary-color: hsl(1, 90%, 64%);
+    --secondary-color: hsl(219, 85%, 26%);
+
+    --tertiary-color: hsl(0, 0%, 100%);
+    --tertiary-color-darker: hsl(210, 60%, 98%);
+
+    --fouthary-color: hsl(219, 14%, 63%);
+    --fouthary-color-light: hsl(211, 68%, 94%);
+    --fouthary-color-lighter: hsl(205, 33%, 90%);
+    --fouthary-color-darker: hsl(219, 12%, 42%);
+    --fouthary-color-dark: hsl(224, 21%, 14%);
+
+}
+
+body{
+    margin: 0;
+    font-size: 1em;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    
+}
