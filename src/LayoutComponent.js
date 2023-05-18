@@ -1,33 +1,9 @@
-import React, {useState} from 'react'
-import NotificationComponent from './NotificationComponent'
-import { data } from "/data"
+import React from 'react'
 
 const LayoutComponent = () => {
-  
-  const [notificationData, setNotificationData] = useState(data);
-  const unreadData = notificationData.filter((item) => item.status === 'unread');
-  
-  const markAllAsRead = () => {
-    const updatedData = notificationData.map((item) => {
-      return { ...item, status: 'read' };
-    });
-    
-    setNotificationData(updatedData);
-  };
-  
   return (
-    <section>
-        <div className='notif-panel'>
-          <div>
-            <h1>Notifications</h1>
-            <span className='number-of-new-notifications'>{unreadData.length}</span>
-          </div>
-           
-          <a href="#" className='mark-all-as-read' onClick={markAllAsRead}>Mark all as read</a>
-        </div>
-        <NotificationComponent data={notificationData}/>
-    </section>
+    <div>LayoutComponent</div>
   )
 }
 
-export default LayoutComponent;
+export default LayoutComponent
