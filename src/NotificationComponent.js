@@ -8,16 +8,19 @@ const NotificationComponent = () => {
     
         {data.map((item, key) => (
             <div className='notification-card' key={key}>
+              <div className='notification-avatar-texts-container'>
                 {item?.avatar && <img src={item?.avatar} alt={item?.name}/>}
                 <div className='notification-texts'>
-                    {item?.name && <h2 className='author-name'>{item?.name}</h2>}
+                    {item?.name && <a href="" className='author-name'>{item?.name}</a>}
                     {item?.action && <h3 className='notif-action'>{item?.action}</h3>}
-                    {item?.post && <h4 className='notif-post'>{item?.post}</h4>}
-                    {item?.club && <h5 className='notif-club'>{item?.club}</h5>}
+                    {item?.post && <a href="" className='notif-post'>{item?.post}</a>}
+                    {item?.club && <a href="" className='notif-club'>{item?.club}</a>}
                     {item?.timestamp  && <span className='notif-timestamp'>{item?.timestamp}</span>}
                     {item?.message && <p className='notif-message'>{item?.message}</p>}
                 </div>
-                {item?.picture && <img src={item?.picture} alt="pic"/>}
+              </div>
+                
+                {item?.picture && <img src={item?.picture} alt="pic" className='pic'/>}
             </div>
         ))}
     </>

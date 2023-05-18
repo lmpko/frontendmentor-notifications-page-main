@@ -10,7 +10,7 @@ const LayouComponent = () => {
             <span className='number-of-new-notifications'>3</span>
           </div>
            
-          <span className='mark-all-as-read'>Mark all as read</span>
+          <a href="" className='mark-all-as-read'>Mark all as read</a>
         </div>
         <NotificationComponent/>
     </section>

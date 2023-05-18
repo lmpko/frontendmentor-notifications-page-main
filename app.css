@@ -43,7 +43,13 @@ h2,h3,h4,h5{
 .notification-card{
     display: flex;
     align-items: flex-start;
-    margin: 3.125rem 0;
+    margin: 2.125rem 0;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.notification-avatar-texts-container{
+    display: flex;
 }
 
 .notification-texts{
@@ -91,7 +97,7 @@ h2,h3,h4,h5{
 }
 
 .notif-club{
-    color: var(--secondary-color);
+    color: var(--fouthary-color-darker);
 }
 
 .notif-timestamp{
@@ -103,6 +109,20 @@ h2,h3,h4,h5{
     padding: .9375rem ;
     border: 1px solid var(--fouthary-color-lighter);
     border-radius: .3125rem ;
+}
+
+.pic:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    padding-right:  .3125rem;
+    font-weight: 800;
+}
+
+a:hover{
+    color: var(--secondary-color);
 }
 
 @media screen and (min-width: 48rem){
