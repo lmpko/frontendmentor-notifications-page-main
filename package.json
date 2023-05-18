@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/lmpko/frontendmentor-notifications-page-main#readme",
   "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "parcel": "^2.8.3",
