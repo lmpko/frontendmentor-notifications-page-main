@@ -30,4 +30,4 @@ const LayoutComponent = () => {
   )
 }
 
-export default LayoutComponent
+export default LayoutComponent;
