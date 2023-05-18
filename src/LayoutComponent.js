@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import NotificationComponent from './NotificationComponent'
 import { data } from "/data"
 
-const LayouComponent = () => {
+const LayoutComponent = () => {
   
   const [notificationData, setNotificationData] = useState(data);
   const unreadData = notificationData.filter((item) => item.status === 'unread');
@@ -30,4 +30,4 @@ const LayouComponent = () => {
   )
 }
 
-export default LayouComponent
+export default LayoutComponent
