@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/lmpko/frontendmentor-notifications-page-main/issues"
   },
-  
+  "homepage": "https://github.com/lmpko/frontendmentor-notifications-page-main#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

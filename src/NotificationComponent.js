@@ -12,7 +12,7 @@ const NotificationComponent = ({data}) => {
                 {item?.avatar && <img src={item?.avatar} alt={item?.name}/>}
                 <div className='notification-texts'>
                     {item?.name && <a href="#" className='author-name'>{item?.name}</a>}
-                    {item?.action && <h3 className='notif-action'>{item?.action}</h3>}
+                    {item?.action && <h2 className='notif-action'>{item?.action}</h2>}
                     {item?.post && <a href="#" className='notif-post'>{item?.post}</a>}
                     {item?.club && <a href="#" className='notif-club'>{item?.club}</a>}
                     {item?.status === 'unread' && <div className='new-indicator'></div>}
